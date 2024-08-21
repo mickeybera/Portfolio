@@ -7,6 +7,8 @@ export default {
   theme: {
     extend: {},
   },
+  darkMode: 'class', // or 'media'
   plugins: [],
 }
+
 

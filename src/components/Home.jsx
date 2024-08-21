@@ -22,7 +22,7 @@ function Home() {
                         <div className='flex space-x-1 text-2xl md:text-4xl'>
                             <h1>Hello I'am a</h1>
                             {/* <span className='text-red-700 font-bold'>Developer</span> */}
-                            <ReactTyped className='text-red-700 font-bold'
+                            <ReactTyped className='text-purple-800 font-bold'
                                 strings={["Developer","Programmer","Coder"]}
                                 typeSpeed={40}
                                 backSpeed={50}
@@ -38,22 +38,22 @@ function Home() {
                                 <h1 className='font-bold'>Avilable on</h1>
                                 <ul className='flex space-x-5'>
                                     <li>
-                                        <a href="https://www.facebook.com/" target='_blank'>
+                                        <a href="https://www.facebook.com/arpan.bera.5623?mibextid=kFxxJD" target='_blank'>
                                         <FaSquareFacebook className='text-2xl cursor-pointer' />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linked.com/" target='_blank'>
+                                        <a href="https://www.linkedin.com/in/arpan-bera-13922a269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'>
                                         <FaLinkedin className='text-2xl cursor-pointer' />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target='_blank'>
+                                        <a href="https://www.instagram.com/arpanbera475?igsh=eHlzenEwd2FkaGpw" target='_blank'>
                                         <FaInstagram className='text-2xl cursor-pointer' />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.github.com/" target='_blank'>
+                                        <a href="https://github.com/mickeybera" target='_blank'>
                                         <FaGithub className='text-2xl cursor-pointer' />
                                         </a>
                                     </li>
