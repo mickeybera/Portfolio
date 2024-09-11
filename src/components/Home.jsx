@@ -30,7 +30,7 @@ function Home() {
                             />
                         </div>
                         <br />
-                        <p className='text-sm md:text-md text-justify'>Welcome to my developer portfolio! I'm a passionate software developer specializing in creating innovative and efficient solutions. With a strong foundation in web development, I have experience building responsive and user-friendly applications using the latest technologies. My portfolio showcases a variety of projects that highlight my skills in front-end and back-end development, problem-solving, and collaboration. I’m always eager to take on new challenges and contribute to impactful projects. Let's connect and explore how I can bring your ideas to life with clean, scalable code!</p>
+                        <p className='text-sm md:text-md text-justify mr-1'>Welcome to my developer portfolio! I'm a passionate software developer specializing in creating innovative and efficient solutions. With a strong foundation in web development, I have experience building responsive and user-friendly applications using the latest technologies. My portfolio showcases a variety of projects that highlight my skills in front-end and back-end development, problem-solving, and collaboration. I’m always eager to take on new challenges and contribute to impactful projects. Let's connect and explore how I can bring your ideas to life with clean, scalable code!</p>
                         <br />
                         {/* social media */}
                         <div className='flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0'>

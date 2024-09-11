@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import pic from "../../public/photo.avif";
+import pic from "../../public/pic.jpg";
 import { IoMenu, IoClose, IoMoon, IoSunny } from "react-icons/io5";
 import { Link } from "react-scroll";
 
@@ -64,11 +64,16 @@ function Navbar() {
                             </li>
                         ))}
                     </ul>
+                    {/* Responsive Dark Mode Button */}
                     <button
                         onClick={toggleDarkMode}
-                        className='ml-4 p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors'
+                        className='ml-4 p-2 md:p-3 lg:p-4 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors'
                     >
-                        {darkMode ? <IoSunny size={20} className="text-yellow-500" /> : <IoMoon size={20} />}
+                        {darkMode ? (
+                            <IoSunny size={18} className="text-yellow-500 md:text-lg lg:text-xl" />
+                        ) : (
+                            <IoMoon size={18} className="text-gray-900 dark:text-white md:text-lg lg:text-xl" />
+                        )}
                     </button>
                     <div onClick={() => setMenu(!menu)} className='md:hidden ml-4'>
                         {menu ? <IoClose size={24} className="text-gray-900 dark:text-white" /> : <IoMenu size={24} className="text-gray-900 dark:text-white" />}
@@ -100,3 +105,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
